@@ -178,21 +178,6 @@ console.log("Radio",value)
             </Text>
           </Box>
 
-
-                  <Controller
-                      control={control}
-                      name="radio"
-                      render={({
-                          field: { onChange, onBlur, value, name, ref },
-                          fieldState: { invalid, isTouched, isDirty, error },
-                          formState,
-                      }) => (
-                        //   <Checkbox
-                        //       onBlur={onBlur} // notify when input is touched
-                        //       onChange={onChange} // send value to hook form
-                        //       checked={value}
-                        //       inputRef={ref}
-                        //   />
                           <RadioGroup position="relative" pb="32px" onChange={setValue} value={value}>
             <Text pb="12px">Gender</Text>
             <Stack direction="row">
